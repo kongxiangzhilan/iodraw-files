@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="RAG Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- User Query -->
+        <mxCell id="2" value="User Query" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Query Analyzer -->
+        <mxCell id="3" value="Query Analyzer&#xa;- Intent Detection&#xa;- Personal Signal Extraction"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="30" width="260" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Objective RAG Box -->
+        <mxCell id="5" value="Objective RAG&#xa;(Knowledge Retrieval)"
+                style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="360" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="6" value="Book / Reference Index"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="7" value="Solved Problems / Solutions"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Personalized RAG Box -->
+        <mxCell id="8" value="Personalized RAG&#xa;(Habit Modeling)"
+                style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="360" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="9" value="Personal Notes / Reports"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="10" value="Personality &amp; Habit Profile"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections from Query Analyzer -->
+        <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="3" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Evidence Pool -->
+        <mxCell id="13" value="Multi-Source Evidence Pool&#xa;- Book Snippets&#xa;- Past Solutions&#xa;- Personal Notes&#xa;- Habit Signals"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="430" width="480" height="140" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="6" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="7" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="9" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="10" target="13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Context Composer -->
+        <mxCell id="18" value="Context Composer&#xa;- Relevance Filtering&#xa;- Conflict Resolution&#xa;- Style Conditioning"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="320" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="13" target="18">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- LLM Generator -->
+        <mxCell id="20" value="LLM Generator&#xa;- Knowledge-Grounded&#xa;- Habit-Aligned Generation"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="240" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" edge="1" parent="1" source="18" target="20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
