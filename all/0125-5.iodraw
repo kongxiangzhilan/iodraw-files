@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="实施例一 跨领域技术融合机会挖掘方法流程">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" page="1" pageWidth="1600" pageHeight="1000">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ================= 背景模块 ================= -->
+
+        <mxCell id="bg1" value="数据解析模块"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="300" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bg2" value="跨域技术关联抽取模块"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;"
+                vertex="1" parent="1">
+          <mxGeometry x="430" y="80" width="300" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bg3" value="理论溯源与情境梳理模块&#10;（含多维度动态知识图谱构建）"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;"
+                vertex="1" parent="1">
+          <mxGeometry x="780" y="80" width="420" height="360" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bg4" value="融合机会演化建模与预测模块"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;"
+                vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="520" height="180" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="bg5" value="融合机会挖掘与输出模块"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#BDBDBD;fontSize=18;"
+                vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="520" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- ================= 流程步骤 ================= -->
+
+        <mxCell id="s1" value="S1&#10;数据解析&#10;非结构化技术数据清洗与标准化"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1976D2;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="240" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s2" value="S2&#10;跨域技术关联初步抽取&#10;语义解析与三元组构建"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#388E3C;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="240" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s3" value="S3&#10;理论溯源与情境梳理"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#F57C00;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="900" y="140" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- S3 子流程 -->
+
+        <mxCell id="s3a" value="图谱构建子流程&#10;动态知识图谱构建"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="820" y="240" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s3b" value="理论溯源子流程&#10;底层理论关联识别"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="1060" y="240" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s3c" value="情境梳理子流程&#10;需求-功能-环境匹配"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#F57C00;fontSize=13;"
+                vertex="1" parent="1">
+          <mxGeometry x="940" y="330" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s4" value="S4&#10;融合机会演化建模与预测&#10;时序演化模型构建与趋势预测"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5FE;strokeColor=#0288D1;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="150" y="570" width="380" height="90" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s5" value="S5&#10;融合机会挖掘与输出&#10;融合潜力评估与报告生成"
+                style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C2185B;fontSize=14;"
+                vertex="1" parent="1">
+          <mxGeometry x="760" y="570" width="380" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- ================= 连线 ================= -->
+
+        <mxCell id="e1" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="s1" target="s2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="s2" target="s3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="s3" target="s4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="s4" target="s5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
