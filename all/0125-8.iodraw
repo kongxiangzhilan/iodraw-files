@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Angular-Distance-Semantic-Consistency">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 输入 -->
+        <mxCell id="req" value="自然语言需求&#xa;Natural Language Requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="sysml" value="SysML 模型元素&#xa;SysML Model Elements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="220" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- 向量化 -->
+        <mxCell id="embed" value="统一语义向量映射&#xa;(Embedding &amp; Normalization)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="260" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 基础角距离 -->
+        <mxCell id="angle" value="基础角距离计算&#xa;Angular Distance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="230" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 四个增强模块 -->
+        <mxCell id="a" value="（a）高相似区间线性化修正&#xa;Small-angle Linearization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="930" y="40" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="b" value="（b）方向一致性加权&#xa;Weighted Angular Distance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="930" y="130" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c" value="（c）软角距离优化&#xa;Soft Angular Distance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="930" y="220" width="260" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="d" value="（d）角距离分布判别增强&#xa;Distribution-based Discrimination" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="930" y="310" width="260" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 输出 -->
+        <mxCell id="out" value="语义一致性评估结果&#xa;Semantic Consistency Assessment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="230" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线 -->
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="req" target="embed">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="sysml" target="embed">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="embed" target="angle">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" style="endArrow=block;html=1;" edge="1" parent="1" source="angle" target="a">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e5" style="endArrow=block;html=1;" edge="1" parent="1" source="angle" target="b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e6" style="endArrow=block;html=1;" edge="1" parent="1" source="angle" target="c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e7" style="endArrow=block;html=1;" edge="1" parent="1" source="angle" target="d">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e8" style="endArrow=block;html=1;" edge="1" parent="1" source="d" target="out">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
