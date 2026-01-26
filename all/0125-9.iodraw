@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Angular-Distance-Enhancement-Pipeline">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 弱化入口 -->
+        <mxCell id="base" value="基础角距离&#xa;Input: (v_r , v_m)&#xa;Output: d₀" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="220" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- (a) -->
+        <mxCell id="a" value="(a) 高相似区间线性化修正&#xa;Input: d₀ (small-angle)&#xa;Operation: angle ≈ √(1−cos)&#xa;Output: d₁ (linear-sensitive)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- (b) -->
+        <mxCell id="b" value="(b) 方向一致性加权&#xa;Input: d₁ , weight matrix W&#xa;Operation: ⟨v_r , v_m⟩_W&#xa;Output: d₂ (key-dimension aware)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- (c) -->
+        <mxCell id="c" value="(c) 软角距离连续优化&#xa;Input: d₂ , semantic matrix S&#xa;Operation: bilinear similarity&#xa;Output: d₃ (ontology-robust)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="280" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- (d) -->
+        <mxCell id="d" value="(d) 基于分布的判别增强&#xa;Input: {d₃¹…d₃ⁿ}&#xa;Statistics: mean μ , variance σ²&#xa;Output: consistency decision &amp; anomaly signals" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="680" y="470" width="360" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线 -->
+        <mxCell id="e1" style="endArrow=block;html=1;" edge="1" parent="1" source="base" target="a">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" style="endArrow=block;html=1;" edge="1" parent="1" source="a" target="b">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" style="endArrow=block;html=1;" edge="1" parent="1" source="b" target="c">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" style="endArrow=block;html=1;" edge="1" parent="1" source="c" target="d">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
