@@ -1,0 +1,49 @@
+<mxGraphModel dx="1034" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <mxCell id="title" value="基于角距离的语义一致性验证路径 (横向流程)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+      <mxGeometry x="400" y="40" width="360" height="30" as="geometry" />
+    </mxCell>
+    
+    <mxCell id="input" value="【输入】&lt;br&gt;需求与模型的&lt;br&gt;归一化语义向量 (A, B)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="40" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+
+    <mxCell id="step_a" value="&lt;b&gt;(a) 线性化修正&lt;/b&gt;&lt;br&gt;处理 arccos 压缩&lt;br&gt;保持 θ 线性响应" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="250" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge1" value="余弦相似度&lt;br&gt;cos θ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11" edge="1" parent="1" source="input" target="step_a">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="step_b" value="&lt;b&gt;(b) 方向权重修正&lt;/b&gt;&lt;br&gt;引入权重矩阵 W&lt;br&gt;增强关键语义敏感性" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="460" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge2" value="线性角度&lt;br&gt;θ ≈ arccos" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11" edge="1" parent="1" source="step_a" target="step_b">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="step_c" value="&lt;b&gt;(c) 软角距离优化&lt;/b&gt;&lt;br&gt;相似矩阵 S&lt;br&gt;同义表达鲁棒性" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="670" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge3" value="加权相似度&lt;br&gt;SC(w)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11" edge="1" parent="1" source="step_b" target="step_c">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="step_d" value="&lt;b&gt;(d) 分布判别增强&lt;/b&gt;&lt;br&gt;计算 (μ, σ²)&lt;br&gt;识别系统与局部偏差" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="880" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge4" value="软角距离集合&lt;br&gt;Dθ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11" edge="1" parent="1" source="step_c" target="step_d">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <mxCell id="output" value="【输出】&lt;br&gt;模型一致性&lt;br&gt;定量评估结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="1090" y="160" width="140" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="edge5" value="统计判别量&lt;br&gt;(μ, σ²)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11" edge="1" parent="1" source="step_d" target="output">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
