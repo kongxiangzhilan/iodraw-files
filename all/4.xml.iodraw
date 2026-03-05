@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ABQraRPltHD9VUXrbsDL" name="第 4 页">
-    <mxGraphModel dx="1895" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,7 @@
         <mxCell id="CCaOJl3PNT1CltN6x1Ez-6" value="云端数字孪生调度中枢&#xa;(岸基中心)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="580" y="60" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CCaOJl3PNT1CltN6x1Ez-7" value="跨介质智能网关&#xa;(浮标/无人船)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFCC80;strokeColor=#EF6C00;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="CCaOJl3PNT1CltN6x1Ez-7" value="跨介质智能网关&#xa;(浮标/无人船)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="325" y="230" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CCaOJl3PNT1CltN6x1Ez-8" value="智能中继 AUV 1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#C5E1A5;strokeColor=#558B2F;fontStyle=1" vertex="1" parent="1">
