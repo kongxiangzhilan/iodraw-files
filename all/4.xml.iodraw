@@ -1,4 +1,4 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17" pages="2">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17" pages="3">
   <diagram id="gateway-protocol-stack" name="跨介质网关协议栈结构图">
     <mxGraphModel dx="1042" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,6 +85,60 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D3i8bY5xOO3eVrTkncuF-13" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="D3i8bY5xOO3eVrTkncuF-8" target="D3i8bY5xOO3eVrTkncuF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NI1kU9rEnuoI2D3Xn0Ss" name="第 3 页">
+    <mxGraphModel dx="1042" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-1" value="全网遥测数据输入&#xa;(误码率、能量等级、声速廓线、缓冲区状态)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E1F5FE;strokeColor=#01579B;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-2" value="&lt;b&gt;1. 数据采集与预处理模块&lt;/b&gt;&#xa;多维遥测数据清洗与特征工程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-3" value="&lt;b&gt;2. 环境预测与数字孪生模块&lt;/b&gt;&#xa;基于BELLHOP模型的声场变化预测&#xa;实时更新链路衰落趋势" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="250" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-4" value="&lt;b&gt;3. DRL 强化学习决策模块&lt;/b&gt;&#xa;状态空间(S) | 动作空间(A)&#xa;基于奖励函数(Reward)寻找最优策略" style="rhombus;whiteSpace=wrap;html=1;fillColor=#C5E1A5;strokeColor=#558B2F;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-5" value="生成最优资源分配矩阵：&#xa;• 节点位移轨迹&#xa;• 发射功率等级&#xa;• 调制阶数切换" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#F5F5F5;strokeColor=#666666;align=left;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-6" value="&lt;b&gt;4. 指令封装与分发模块&lt;/b&gt;&#xa;跨介质协议映射及分层控制包下发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="550" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-7" value="执行结果实时反馈" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;strokeColor=#D32F2F;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-6" target="1e9ZgAdG7OQMRAgk2yWw-2">
+          <mxGeometry x="-0.84" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="580" as="sourcePoint" />
+            <mxPoint x="150" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-1" target="1e9ZgAdG7OQMRAgk2yWw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-2" target="1e9ZgAdG7OQMRAgk2yWw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-3" target="1e9ZgAdG7OQMRAgk2yWw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-4" target="1e9ZgAdG7OQMRAgk2yWw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-12" style="edgeStyle=none;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-4" target="1e9ZgAdG7OQMRAgk2yWw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-13" value="执行机构：&#xa;移动中继 (AUV) / 终端节点" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#E1F5FE;strokeColor=#01579B;" vertex="1" parent="1">
+          <mxGeometry x="260" y="670" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-6" target="1e9ZgAdG7OQMRAgk2yWw-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
