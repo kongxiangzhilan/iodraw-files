@@ -113,7 +113,7 @@
         <mxCell id="1e9ZgAdG7OQMRAgk2yWw-6" value="&lt;b&gt;4. 指令封装与分发模块&lt;/b&gt;&#xa;跨介质协议映射及分层控制包下发" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#FBC02D;" vertex="1" parent="1">
           <mxGeometry x="310" y="550" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-7" value="执行结果实时反馈" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;strokeColor=#D32F2F;" edge="1" parent="1">
+        <mxCell id="1e9ZgAdG7OQMRAgk2yWw-7" value="执行结果实时反馈" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;strokeColor=#D32F2F;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-6" target="1e9ZgAdG7OQMRAgk2yWw-2">
           <mxGeometry x="-0.84" y="-20" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="600" as="sourcePoint" />
             <mxPoint x="270" y="190" as="targetPoint" />
