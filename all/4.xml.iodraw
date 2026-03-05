@@ -118,6 +118,10 @@
             <mxPoint x="270" y="600" as="sourcePoint" />
             <mxPoint x="270" y="190" as="targetPoint" />
             <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="260" y="585" />
+              <mxPoint x="260" y="175" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="1e9ZgAdG7OQMRAgk2yWw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1e9ZgAdG7OQMRAgk2yWw-1" target="1e9ZgAdG7OQMRAgk2yWw-2">
