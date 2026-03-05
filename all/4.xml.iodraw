@@ -170,9 +170,6 @@
         <mxCell id="CCaOJl3PNT1CltN6x1Ez-7" value="跨介质智能网关&#xa;(浮标/无人船)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="325" y="230" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CCaOJl3PNT1CltN6x1Ez-8" value="智能中继 AUV 1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#C5E1A5;strokeColor=#558B2F;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="400" width="60" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="CCaOJl3PNT1CltN6x1Ez-9" value="智能中继 AUV 2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#C5E1A5;strokeColor=#558B2F;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="540" y="450" width="60" height="60" as="geometry" />
         </mxCell>
@@ -208,6 +205,9 @@
         </mxCell>
         <mxCell id="CCaOJl3PNT1CltN6x1Ez-20" value="&lt;span&gt;AI 全局调度中心&lt;/span&gt;&#xa;数字孪生映射&#xa;DRL 拓扑演进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#D84315;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="580" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCaOJl3PNT1CltN6x1Ez-8" value="智能中继 AUV 1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mobile_client;fillColor=#C5E1A5;strokeColor=#558B2F;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
