@@ -85,7 +85,7 @@
           <mxGeometry x="270" y="390" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VR5XBHK1bvG7fc28dfut-15" value="Telegram" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="380" y="420" width="90" height="40" as="geometry" />
+          <mxGeometry x="470" y="390" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="VR5XBHK1bvG7fc28dfut-16" value="Discord" style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="510" y="470" width="90" height="40" as="geometry" />
