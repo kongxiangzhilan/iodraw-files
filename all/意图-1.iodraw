@@ -31,6 +31,60 @@
         <mxCell id="e5" parent="1" source="resource" target="bus" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-1" value="任务请求 / 业务流程 / 控制指令" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-2" value="协同总线子系统&#xa;统一接入｜语义表达｜消息路由｜流程调度｜运行治理" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="500" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-3" value="智能应用生成与校核子系统" style="swimlane;rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-4" value="多智能体封装" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-3">
+          <mxGeometry x="20" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-5" value="运行时重载" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-3">
+          <mxGeometry x="180" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-6" value="测试验证" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-3">
+          <mxGeometry x="20" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-7" value="人机协同改进" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-3">
+          <mxGeometry x="180" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-8" value="智能应用集成部署子系统" style="swimlane;rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-9" value="应用装配" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-8">
+          <mxGeometry x="20" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-10" value="部署编排" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-8">
+          <mxGeometry x="180" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-11" value="发布策略" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-8">
+          <mxGeometry x="20" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-12" value="运行控制" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="_3SlNZAt1TeFgW8-yfzO-8">
+          <mxGeometry x="180" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-13" value="模型能力｜工具组件｜数据资源｜部署平台｜监测系统" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-14" edge="1" parent="1" source="_3SlNZAt1TeFgW8-yfzO-1" target="_3SlNZAt1TeFgW8-yfzO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-15" edge="1" parent="1" source="_3SlNZAt1TeFgW8-yfzO-2" target="_3SlNZAt1TeFgW8-yfzO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-16" edge="1" parent="1" source="_3SlNZAt1TeFgW8-yfzO-3" target="_3SlNZAt1TeFgW8-yfzO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-17" edge="1" parent="1" source="_3SlNZAt1TeFgW8-yfzO-13" target="_3SlNZAt1TeFgW8-yfzO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_3SlNZAt1TeFgW8-yfzO-18" style="dashed=1;endArrow=block;" edge="1" parent="1" source="_3SlNZAt1TeFgW8-yfzO-8" target="_3SlNZAt1TeFgW8-yfzO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
