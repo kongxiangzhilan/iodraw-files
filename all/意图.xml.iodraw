@@ -44,7 +44,7 @@
           <mxGeometry x="980" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rule" value="规则兜底" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="560" width="140" height="60" as="geometry" />
+          <mxGeometry x="1290" y="660" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="output" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="520" width="120" height="60" as="geometry" />
