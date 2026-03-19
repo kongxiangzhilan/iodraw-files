@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="架构图">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 协同总线 -->
+        <mxCell id="bus" value="协同总线子系统&#xa;统一接入｜语义表达｜消息路由｜流程调度｜运行治理"
+          style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;"
+          vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="400" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 前端生成校核 -->
+        <mxCell id="gen" value="智能应用生成校核子系统&#xa;多智能体封装｜运行时重载｜测试验证｜人机协同"
+          style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;"
+          vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 后端部署 -->
+        <mxCell id="deploy" value="智能应用集成部署子系统&#xa;应用装配｜部署编排｜发布策略｜运行控制"
+          style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;"
+          vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="300" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 底层资源 -->
+        <mxCell id="resource" value="模型能力｜工具组件｜数据资源｜部署平台｜监测系统"
+          style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;"
+          vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="400" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 连接线 -->
+        <mxCell id="e1" edge="1" parent="1" source="bus" target="gen">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e2" edge="1" parent="1" source="bus" target="deploy">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e3" edge="1" parent="1" source="gen" target="deploy">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e4" edge="1" parent="1" source="deploy" target="bus">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e5" edge="1" parent="1" source="resource" target="bus">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
