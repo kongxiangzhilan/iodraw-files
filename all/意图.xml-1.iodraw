@@ -78,8 +78,13 @@
         <mxCell id="e8" value="否" parent="1" source="multi" target="slot" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e9" parent="1" source="split" target="slot" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e9" parent="1" source="split" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1165" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e10" value="否" parent="1" source="slot" target="ask" edge="1">
           <mxGeometry relative="1" as="geometry" />
