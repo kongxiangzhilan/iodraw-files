@@ -1,0 +1,67 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
+  <diagram name="LLM意图理解关键技术架构" id="0">
+    <mxGraphModel dx="1223" dy="3655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="input" value="用户自然语言输入" style="rounded=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pre" value="预处理层&#xa;清洗｜上下文管理｜意图预过滤" style="rounded=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="260" y="200" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vec" value="向量检索（Embedding）&#xa;Top-K召回" style="rounded=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="520" y="120" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" value="LLM推理引擎&#xa;意图分类｜参数抽取｜CoT拆解" style="rounded=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="520" y="260" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="schema" value="Schema结构化抽取&#xa;Function Calling&#xa;JSON生成" style="rounded=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="800" y="260" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="check" value="置信度校验 &amp; 自洽性检测&#xa;低置信度触发澄清" style="rounded=1;fillColor=#ffe6cc;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="260" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="output" value="结构化意图输出&#xa;（JSON / API参数）" style="rounded=1;fillColor=#e1d5e7;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="260" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="context" value="多轮上下文管理&#xa;指代消解｜意图继承" style="rounded=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="520" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback" value="主动澄清 / 用户反馈" style="rounded=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="420" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2" parent="1" source="input" target="pre" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" source="pre" target="vec" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" source="pre" target="llm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" source="vec" target="llm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" source="llm" target="schema" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" source="schema" target="check" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" source="check" target="output" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" style="dashed=1;" parent="1" source="context" target="llm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="dashed=1;" parent="1" source="check" target="feedback" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" style="dashed=1;" parent="1" source="feedback" target="pre" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
