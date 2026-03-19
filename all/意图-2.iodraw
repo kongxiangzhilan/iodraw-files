@@ -29,7 +29,7 @@
           <mxGeometry x="520" y="420" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="feedback" value="主动澄清 / 用户反馈" style="rounded=1;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="420" width="240" height="80" as="geometry" />
+          <mxGeometry x="1090" y="510" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2" parent="1" source="input" target="pre" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +59,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="11" style="dashed=1;" parent="1" source="feedback" target="pre" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
