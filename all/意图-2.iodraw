@@ -11,7 +11,7 @@
           <mxGeometry x="260" y="200" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vec" value="向量检索（Embedding）&#xa;Top-K召回" style="rounded=1;fillColor=#fff2cc;" parent="1" vertex="1">
-          <mxGeometry x="520" y="120" width="220" height="80" as="geometry" />
+          <mxGeometry x="530" y="130" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="llm" value="LLM推理引擎&#xa;意图分类｜参数抽取｜CoT拆解" style="rounded=1;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="520" y="260" width="240" height="100" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="520" y="420" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="feedback" value="主动澄清 / 用户反馈" style="rounded=1;fillColor=#f8cecc;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="510" width="240" height="80" as="geometry" />
+          <mxGeometry x="1080" y="510" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2" parent="1" source="input" target="pre" edge="1">
           <mxGeometry relative="1" as="geometry" />
