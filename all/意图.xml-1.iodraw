@@ -55,10 +55,10 @@
         <mxCell id="e2" parent="1" source="rag" target="rag_decision" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" value="是" parent="1" source="rag_decision" target="direct" edge="1">
+        <mxCell id="e3" value="是" style="exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rag_decision" target="direct" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e4" value="否" style="exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="prompt" edge="1" source="rag_decision">
+        <mxCell id="e4" value="否" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="prompt" edge="1" source="rag_decision">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="340" as="sourcePoint" />
             <Array as="points">
