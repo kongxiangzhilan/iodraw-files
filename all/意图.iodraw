@@ -1,280 +1,102 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17" pages="2">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram name="Intent Recognition Pipeline" id="0">
-    <mxGraphModel dx="220245" dy="428600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="start" value="用户输入" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="200" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rag" value="向量检索(RAG)\n召回相似Query" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="200" y="200" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="rag_decision" value="召回置信度高?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="400" y="200" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="direct" value="直接返回意图" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="550" y="100" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="prompt" value="构建Prompt\n(角色+任务+示例+格式)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="550" y="250" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="llm" value="LLM推理\n(意图+槽位)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="780" y="250" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="multi" value="是否多意图?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="950" y="250" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="split" value="拆分子意图\n顺序规划" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="250" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="slot_check" value="槽位是否完整?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="780" y="400" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ask" value="反问用户补充槽位" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="400" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="parse" value="JSON解析\n格式修复+校验" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="780" y="520" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="conf" value="置信度&gt;=阈值?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="980" y="520" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="retry" value="重试机制" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rule" value="规则引擎兜底" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1150" y="560" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="output" value="输出结果(JSON)" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="520" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rl" value="日志收集\n强化学习优化\n(奖励函数+难例采样)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="650" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="2" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="start" target="rag" edge="1" />
-        <mxCell id="3" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="rag" target="rag_decision" edge="1" />
-        <mxCell id="4" value="是" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="rag_decision" target="direct" edge="1" />
-        <mxCell id="5" value="否" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="rag_decision" target="prompt" edge="1" />
-        <mxCell id="6" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="prompt" target="llm" edge="1" />
-        <mxCell id="7" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="llm" target="multi" edge="1" />
-        <mxCell id="8" value="是" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="multi" target="split" edge="1" />
-        <mxCell id="9" value="否" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="multi" target="slot_check" edge="1" />
-        <mxCell id="10" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="split" target="slot_check" edge="1" />
-        <mxCell id="11" value="否" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="slot_check" target="ask" edge="1" />
-        <mxCell id="12" value="是" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="slot_check" target="parse" edge="1" />
-        <mxCell id="13" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="parse" target="conf" edge="1" />
-        <mxCell id="14" value="是" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="conf" target="output" edge="1" />
-        <mxCell id="15" value="否" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="conf" target="retry" edge="1" />
-        <mxCell id="16" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="retry" target="rule" edge="1" />
-        <mxCell id="17" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="rule" target="output" edge="1" />
-        <mxCell id="18" style="labelBackgroundColor=none;fontColor=default;" parent="1" source="output" target="rl" edge="1" />
-        <mxCell id="DwZL7DruUR_IuUxiVccL-19" value="4.5 强化学习" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="858" width="797" height="232" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-20" value="4.4 性能与兜底" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="837" y="858" width="863" height="232" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-21" value="4.3 RAG增强" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1720" y="858" width="867" height="232" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-22" value="4.2 复杂场景" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2607" y="858" width="876" height="232" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-23" value="4.1 核心流程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3503" y="858" width="626" height="232" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-24" value="4 核心实现流程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2067" y="760" width="169" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-25" value="4.1 基于提示词的意图识别" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3704" y="883" width="247" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-26" value="4.2 复杂场景处理策略" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2927" y="883" width="215" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-27" value="4.3 检索增强与泛化能力" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2036" y="883" width="231" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-28" value="4.4 性能优化与兜底设计" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1128" y="883" width="231" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-29" value="4.5 强化学习对齐与优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="283" y="883" width="231" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-30" value="提示词模板设计: 角色/任务/意图/格式/少样本/输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3538" y="982" width="254" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-31" value="结构化解析: 正则提取/格式修复/有效性校验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3842" y="982" width="253" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-32" value="多意图识别: 数组格式或中间计划生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2642" y="990" width="237" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-33" value="槽位缺失: 主动反问/填槽子流程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2929" y="990" width="212" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-34" value="多轮上下文: 状态跟踪器/LangGraph建模" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3191" y="990" width="257" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-35" value="意图语料库: 种子语料+LLM泛化+人工审核" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1755" y="982" width="248" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-36" value="检索模块: 向量检索+混合检索" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2053" y="990" width="196" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-37" value="召回应用: 动态少样本注入或直接采纳" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="990" width="252" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-38" value="缓存策略: Redis高频Query缓存" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="872" y="990" width="204" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-39" value="模型量化: GPTQ/AWQ降低推理延迟" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1126" y="990" width="237" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-40" value="兜底机制: 重试机制/规则引擎/日志记录" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1412" y="982" width="253" height="83" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-41" value="奖励函数设计: 格式奖励+准确率奖励" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="55" y="990" width="212" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-42" value="显式思考过程: 提升推理质量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="317" y="990" width="162" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-43" value="课程采样: 基于难样例的第二阶段训练" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="529" y="990" width="253" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.55;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-24" target="DwZL7DruUR_IuUxiVccL-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3828" y="833" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.6;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-24" target="DwZL7DruUR_IuUxiVccL-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3035" y="833" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-24" target="DwZL7DruUR_IuUxiVccL-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.6;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-24" target="DwZL7DruUR_IuUxiVccL-28">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1244" y="833" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.55;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-24" target="DwZL7DruUR_IuUxiVccL-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="398" y="833" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-25" target="DwZL7DruUR_IuUxiVccL-30">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3665" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-25" target="DwZL7DruUR_IuUxiVccL-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3968" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-26" target="DwZL7DruUR_IuUxiVccL-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2760" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-26" target="DwZL7DruUR_IuUxiVccL-33">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.9;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-26" target="DwZL7DruUR_IuUxiVccL-34">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3320" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-27" target="DwZL7DruUR_IuUxiVccL-35">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1879" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-27" target="DwZL7DruUR_IuUxiVccL-36">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-27" target="DwZL7DruUR_IuUxiVccL-37">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2426" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.95;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-28" target="DwZL7DruUR_IuUxiVccL-38">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="974" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-28" target="DwZL7DruUR_IuUxiVccL-39">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-59" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.91;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-28" target="DwZL7DruUR_IuUxiVccL-40">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1539" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-29" target="DwZL7DruUR_IuUxiVccL-41">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="161" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-29" target="DwZL7DruUR_IuUxiVccL-42">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DwZL7DruUR_IuUxiVccL-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="DwZL7DruUR_IuUxiVccL-29" target="DwZL7DruUR_IuUxiVccL-43">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="656" y="957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="IWGQ76kVURLUzNPfo9AR" name="第 2 页">
     <mxGraphModel dx="489" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="start" value="用户输入" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rag" value="向量检索(RAG)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="200" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rag_decision" value="召回置信度高?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="direct" value="直接返回意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" value="构建Prompt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="250" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" value="LLM推理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="multi" value="是否多意图?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="split" value="拆分子意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="250" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="slot" value="槽位是否完整?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="400" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ask" value="补充槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="400" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="parse" value="JSON解析与校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="conf" value="置信度&gt;=阈值?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="950" y="520" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="retry" value="重试机制" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" value="规则兜底" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="560" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="output" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" source="start" target="rag" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" source="rag" target="rag_decision" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="是" parent="1" source="rag_decision" target="direct" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="否" parent="1" source="rag_decision" target="prompt" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" parent="1" source="prompt" target="llm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" parent="1" source="llm" target="multi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="是" parent="1" source="multi" target="split" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="否" parent="1" source="multi" target="slot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" parent="1" source="split" target="slot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" value="否" parent="1" source="slot" target="ask" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="是" parent="1" source="slot" target="parse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" parent="1" source="parse" target="conf" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="是" parent="1" source="conf" target="output" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" value="否" parent="1" source="conf" target="retry" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" parent="1" source="retry" target="rule" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" parent="1" source="rule" target="output" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
