@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="start" value="用户输入" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="250" width="100" height="50" as="geometry" />
+          <mxGeometry x="-20" y="260" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rag" value="向量检索(RAG)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="250" width="160" height="70" as="geometry" />
+          <mxGeometry x="130" y="260" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rag_decision" value="召回置信度高?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="250" width="120" height="80" as="geometry" />
+          <mxGeometry x="330" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="direct" value="直接返回意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="210" width="140" height="60" as="geometry" />
+          <mxGeometry x="590" y="220" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="prompt" value="构建Prompt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="310" width="160" height="70" as="geometry" />
+          <mxGeometry x="560" y="320" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="llm" value="LLM推理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="310" width="140" height="70" as="geometry" />
@@ -60,14 +60,14 @@
         </mxCell>
         <mxCell id="e4" value="否" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="prompt" edge="1" source="rag_decision">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="340" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="460" y="345" />
-            </Array>
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5" parent="1" source="prompt" target="llm" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e5" parent="1" source="prompt" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="355" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e6" parent="1" source="llm" target="multi" edge="1">
           <mxGeometry relative="1" as="geometry" />
