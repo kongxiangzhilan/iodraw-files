@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="架构图">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 云层 -->
+        <mxCell id="cloud" value="中心云层&#xa;全局决策｜资源调度｜运维管控"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="500" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 边缘层 -->
+        <mxCell id="edge" value="边缘节点层&#xa;本地处理｜协同联动"
+          style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="600" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 终端 -->
+        <mxCell id="device" value="终端感知层&#xa;IoT设备"
+          style="rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="500" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线 -->
+        <mxCell edge="1" parent="1" source="device" target="edge">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="edge" target="cloud">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
