@@ -1,0 +1,117 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
+  <diagram name="Intent Recognition Pipeline" id="0">
+    <mxGraphModel dx="4504" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" value="用户输入" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rag" value="向量检索(RAG)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="300" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rag_decision" value="召回置信度高?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="direct" value="直接返回意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="210" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="prompt" value="构建Prompt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="310" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="llm" value="LLM推理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="multi" value="是否多意图?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="830" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="split" value="拆分子意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="990" y="310" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="slot" value="槽位是否完整?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ask" value="补充槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="440" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="parse" value="JSON解析与校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="430" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="conf" value="置信度&gt;=阈值?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="430" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="retry" value="重试机制" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" value="规则兜底" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="output" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" source="start" target="rag" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" source="rag" target="rag_decision" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="是" style="exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rag_decision" target="direct" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" value="否" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="prompt" edge="1" source="rag_decision">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" parent="1" source="prompt" target="llm" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" parent="1" source="llm" target="multi" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" value="是" parent="1" source="multi" target="split" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" value="否" parent="1" source="multi" target="slot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" parent="1" source="split" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1065" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" value="否" parent="1" source="slot" target="ask" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="是" parent="1" source="slot" target="parse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" parent="1" source="parse" target="conf" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" value="是" parent="1" source="conf" target="output" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" value="否" parent="1" source="conf" target="retry" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" parent="1" source="retry" target="rule" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" parent="1" source="rule" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
