@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram name="Intent Recognition Pipeline" id="0">
-    <mxGraphModel dx="4523" dy="3655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4115" dy="2437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,25 +17,25 @@
           <mxGeometry x="590" y="210" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="prompt" value="构建Prompt" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="310" width="160" height="70" as="geometry" />
+          <mxGeometry x="460" y="310" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="llm" value="LLM推理" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="760" y="310" width="140" height="70" as="geometry" />
+          <mxGeometry x="660" y="310" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="multi" value="是否多意图?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="830" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="split" value="拆分子意图" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="310" width="150" height="70" as="geometry" />
+          <mxGeometry x="990" y="310" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="slot" value="槽位是否完整?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="430" width="140" height="80" as="geometry" />
+          <mxGeometry x="820" y="430" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ask" value="补充槽位" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="440" width="150" height="70" as="geometry" />
+          <mxGeometry x="980" y="440" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="parse" value="JSON解析与校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="700" y="430" width="160" height="80" as="geometry" />
+          <mxGeometry x="600" y="430" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="conf" value="置信度&gt;=阈值?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="430" width="140" height="80" as="geometry" />
@@ -82,9 +82,9 @@
         </mxCell>
         <mxCell id="e9" parent="1" source="split" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="990" y="400" as="targetPoint" />
+            <mxPoint x="890" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1165" y="400" />
+              <mxPoint x="1065" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
