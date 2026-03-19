@@ -106,8 +106,10 @@
         <mxCell id="e15" parent="1" source="retry" target="rule" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e16" parent="1" source="rule" target="output" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e16" parent="1" source="rule" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
