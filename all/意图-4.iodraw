@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="云边协同技术架构">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 云层 -->
+        <mxCell id="cloud" value="中心云层&#xa;全局决策｜模型训练｜资源调度｜运维管控"
+          style="swimlane;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="500" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 控制面 -->
+        <mxCell id="control" value="协同控制面&#xa;Task Spec｜流程管控｜策略调度"
+          style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="300" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 数据面 -->
+        <mxCell id="data" value="数据平面&#xa;数据标准｜格式转换｜加密传输"
+          style="rounded=1;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="900" y="200" width="300" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 边缘层 -->
+        <mxCell id="edge" value="边缘节点层&#xa;本地智能处理｜区域联动｜离线自治"
+          style="swimlane;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="350" width="800" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- 边缘节点 -->
+        <mxCell id="edge1" value="边缘节点A"
+          style="rounded=1;" vertex="1" parent="edge">
+          <mxGeometry x="50" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="edge2" value="边缘节点B"
+          style="rounded=1;" vertex="1" parent="edge">
+          <mxGeometry x="300" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="edge3" value="边缘节点C"
+          style="rounded=1;" vertex="1" parent="edge">
+          <mxGeometry x="550" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- P2P连接 -->
+        <mxCell edge="1" parent="edge" source="edge1" target="edge2"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="edge" source="edge2" target="edge3"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- 终端层 -->
+        <mxCell id="device" value="终端感知层&#xa;传感器｜摄像头｜IoT设备"
+          style="swimlane;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="580" width="500" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 连接 -->
+        <mxCell edge="1" parent="1" source="cloud" target="control"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="cloud" target="data"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="control" target="edge"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="data" target="edge"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="edge" target="device"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- 分级触发 -->
+        <mxCell id="local" value="局部联动"
+          style="rounded=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="200" y="750" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="global" value="全局联动"
+          style="rounded=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="900" y="750" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="edge" target="local"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="edge" target="cloud"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="cloud" target="global"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
