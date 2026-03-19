@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="云边协同核心流程">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 开始 -->
+        <mxCell id="start" value="跨单位协同请求"
+          style="ellipse;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 身份认证 -->
+        <mxCell id="auth" value="DID身份认证&#xa;零信任校验"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="auth_check" value="是否通过认证"
+          style="rhombus;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="210" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="deny" value="拒绝访问"
+          style="rounded=1;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="330" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 部署 -->
+        <mxCell id="deploy" value="CI/CD镜像构建&#xa;安全扫描+测试"
+          style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="release" value="灰度发布&#xa;分批部署"
+          style="rounded=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="820" y="200" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- 执行流程 -->
+        <mxCell id="trigger" value="感知触发"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="100" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="parse" value="就近解析"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="180" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="spread" value="协同扩散"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="260" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="feedback" value="闭环反馈"
+          style="rounded=1;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="340" width="140" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 调度 -->
+        <mxCell id="schedule" value="动态算力调度"
+          style="rounded=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="180" width="160" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="fault" value="节点容错&#xa;任务迁移"
+          style="rounded=1;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="280" width="160" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- 结束 -->
+        <mxCell id="end" value="协同任务完成"
+          style="ellipse;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="220" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线 -->
+        <mxCell edge="1" parent="1" source="start" target="auth"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="auth" target="auth_check"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="auth_check" target="deny"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="auth_check" target="deploy"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="deploy" target="release"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="release" target="trigger"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="trigger" target="parse"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="parse" target="spread"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="spread" target="feedback"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="feedback" target="schedule"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell edge="1" parent="1" source="schedule" target="fault"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell edge="1" parent="1" source="fault" target="end"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- 闭环 -->
+        <mxCell edge="1" parent="1" source="feedback" target="parse"
+          style="dashed=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
