@@ -38,10 +38,10 @@
           <mxGeometry x="700" y="430" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="conf" value="置信度&gt;=阈值?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="430" width="140" height="80" as="geometry" />
+          <mxGeometry x="360" y="430" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="retry" value="重试机制" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rule" value="规则兜底" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="540" width="140" height="60" as="geometry" />
