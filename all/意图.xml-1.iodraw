@@ -47,7 +47,7 @@
           <mxGeometry x="200" y="570" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="output" value="输出结果" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="440" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="e1" parent="1" source="start" target="rag" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -56,7 +56,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e3" value="是" style="exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="rag_decision" target="direct" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e4" value="否" style="exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="prompt" edge="1" source="rag_decision">
           <mxGeometry relative="1" as="geometry">
