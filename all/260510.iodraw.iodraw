@@ -171,7 +171,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="70" width="480" height="155" as="geometry" />
+          <mxGeometry x="1010" y="86" width="480" height="155" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-16" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-3">
           <mxGeometry relative="1" as="geometry" />
