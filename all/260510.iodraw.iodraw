@@ -215,7 +215,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-24" value="状态更新" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="0.0222" y="30" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-25" value="策略反馈" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-15">
           <mxGeometry relative="1" as="geometry" />
