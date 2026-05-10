@@ -128,58 +128,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="基于动态语义一致性校验的多智能体协同演进框架" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="基于动态语义一致性校验的多智能体协同演进框架" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="1620" height="1010" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-2" value="协同调度中心&#xa;• 全局状态聚合&#xa;• 轮次目标生成&#xa;• 节点启停与角色切换&#xa;• 阈值与优先级调整" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-2" value="协同调度中心&#xa;• 全局状态聚合&#xa;• 轮次目标生成&#xa;• 节点启停与角色切换&#xa;• 阈值与优先级调整" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="90" width="480" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-3" value="语义处理模块&#xa;• Query/Key 描述提取&#xa;• 语义规整与编码&#xa;• 向量化映射&#xa;• 统一语义空间构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-3" value="语义处理模块&#xa;• Query/Key 描述提取&#xa;• 语义规整与编码&#xa;• 向量化映射&#xa;• 统一语义空间构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="180" y="330" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-4" value="一致性校验引擎&#xa;• 目标一致性检查&#xa;• 角色边界检查&#xa;• 冲突与风险识别&#xa;• 可信度评估与纠偏" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-4" value="一致性校验引擎&#xa;• 目标一致性检查&#xa;• 角色边界检查&#xa;• 冲突与风险识别&#xa;• 可信度评估与纠偏" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="660" y="330" width="440" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-5" value="记忆与日志模块&#xa;• 局部记忆缓存&#xa;• 协同轨迹日志&#xa;• 冲突日志&#xa;• 演化历史记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-5" value="记忆与日志模块&#xa;• 局部记忆缓存&#xa;• 协同轨迹日志&#xa;• 冲突日志&#xa;• 演化历史记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1230" y="330" width="330" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-6" value="可演进智能体节点群" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-6" value="可演进智能体节点群" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontSize=22;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="670" width="1420" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-7" value="智能体节点 A&#xa;• 角色描述&#xa;• 局部记忆&#xa;• Query/Key生成&#xa;• 公共/私有输出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-7" value="智能体节点 A&#xa;• 角色描述&#xa;• 局部记忆&#xa;• Query/Key生成&#xa;• 公共/私有输出" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry x="40" y="70" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-8" value="智能体节点 B&#xa;• 动态角色状态&#xa;• 多轮上下文&#xa;• 协同推理&#xa;• 状态更新" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-8" value="智能体节点 B&#xa;• 动态角色状态&#xa;• 多轮上下文&#xa;• 协同推理&#xa;• 状态更新" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry x="370" y="70" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-9" value="智能体节点 C&#xa;• 任务分解&#xa;• 信息供给&#xa;• 私有通信&#xa;• 结果整合" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-9" value="智能体节点 C&#xa;• 任务分解&#xa;• 信息供给&#xa;• 私有通信&#xa;• 结果整合" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry x="700" y="70" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-10" value="智能体节点 N&#xa;• 阶段角色切换&#xa;• 动态协同&#xa;• 推理反馈&#xa;• 结构演进" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-10" value="智能体节点 N&#xa;• 阶段角色切换&#xa;• 动态协同&#xa;• 推理反馈&#xa;• 结构演进" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry x="1030" y="70" width="240" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-11" value="动态协同边" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-7" target="Z2moJaxaL-ESW3EmwKZl-8">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-11" value="动态协同边" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-7" target="Z2moJaxaL-ESW3EmwKZl-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-12" value="语义路由" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-8" target="Z2moJaxaL-ESW3EmwKZl-9">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-12" value="语义路由" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-8" target="Z2moJaxaL-ESW3EmwKZl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-13" value="一致性过滤" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-9" target="Z2moJaxaL-ESW3EmwKZl-10">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-13" value="一致性过滤" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-9" target="Z2moJaxaL-ESW3EmwKZl-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-14" value="反馈纠偏" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;fontSize=18;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-10" target="Z2moJaxaL-ESW3EmwKZl-7">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-14" value="反馈纠偏" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-10" target="Z2moJaxaL-ESW3EmwKZl-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="105" width="480" height="120" as="geometry" />
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="70" width="480" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-16" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-3">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-16" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-17" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-4">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-17" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-18" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-18" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="235" as="sourcePoint" />
             <mxPoint x="1250" y="325" as="targetPoint" />
@@ -189,16 +189,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-19" value="需求/供给描述" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-6" target="Z2moJaxaL-ESW3EmwKZl-3">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-19" value="需求/供给描述" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-6" target="Z2moJaxaL-ESW3EmwKZl-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-20" value="相关候选边" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-3" target="Z2moJaxaL-ESW3EmwKZl-4">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-20" value="相关候选边" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-3" target="Z2moJaxaL-ESW3EmwKZl-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-21" value="一致性结果" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-4" target="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-21" value="一致性结果" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-4" target="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-22" value="公共消息与状态" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-6" target="Z2moJaxaL-ESW3EmwKZl-2">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-22" value="公共消息与状态" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-6" target="Z2moJaxaL-ESW3EmwKZl-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="140" y="830" />
@@ -206,16 +206,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-23" value="历史日志/记忆" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-4">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-23" value="历史日志/记忆" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-24" value="状态更新" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-6">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-24" value="状态更新" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-25" value="策略反馈" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-15">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-25" value="策略反馈" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-26" value="参数优化" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;fontSize=18;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-15" target="Z2moJaxaL-ESW3EmwKZl-2">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-26" value="参数优化" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-15" target="Z2moJaxaL-ESW3EmwKZl-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
