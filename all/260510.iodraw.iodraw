@@ -226,7 +226,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 26px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;基于动态语义一致性校验的多智能体协同演进框架&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="520" y="10" width="520" height="50" as="geometry" />
+          <mxGeometry x="572" y="10" width="600" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
