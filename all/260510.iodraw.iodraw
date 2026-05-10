@@ -124,7 +124,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IwQVW77cZyOrDtXIGJG6" name="第 2 页">
-    <mxGraphModel dx="2007" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -168,7 +168,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-14" value="反馈纠偏" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-10" target="Z2moJaxaL-ESW3EmwKZl-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1150" y="280" />
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="1010" y="86" width="480" height="155" as="geometry" />
