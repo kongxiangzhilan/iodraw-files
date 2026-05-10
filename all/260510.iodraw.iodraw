@@ -192,7 +192,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-22" value="公共消息与状态" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-6" target="Z2moJaxaL-ESW3EmwKZl-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="830" />
+              <mxPoint x="140" y="165" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-23" value="历史日志/记忆" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=14;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-4">
           <mxGeometry relative="1" as="geometry" />
