@@ -124,12 +124,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IwQVW77cZyOrDtXIGJG6" name="第 2 页">
-    <mxGraphModel dx="1806" dy="5685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1806" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-10" width="1620" height="1070" as="geometry" />
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="基于动态语义一致性校验的多智能体协同演进框架" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="1620" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-2" value="协同调度中心&#xa;• 全局状态聚合&#xa;• 轮次目标生成&#xa;• 节点启停与角色切换&#xa;• 阈值与优先级调整" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="90" width="480" height="150" as="geometry" />
