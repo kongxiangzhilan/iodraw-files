@@ -216,6 +216,10 @@
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-24" value="状态更新" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;dashed=1;strokeWidth=2;fontSize=22;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-5" target="Z2moJaxaL-ESW3EmwKZl-6">
           <mxGeometry x="0.0222" y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1395" y="620" />
+              <mxPoint x="880" y="620" />
+            </Array>
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
