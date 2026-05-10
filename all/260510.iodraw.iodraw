@@ -124,26 +124,26 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IwQVW77cZyOrDtXIGJG6" name="第 2 页">
-    <mxGraphModel dx="903" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4515" dy="2510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="基于动态语义一致性校验的多智能体协同演进框架" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;strokeColor=#000000;fontSize=22;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-1" value="基于动态语义一致性校验的多智能体协同演进框架" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=22;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="1680" height="980" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-2" value="协同调度中心&#xa;• 全局状态聚合&#xa;• 轮次目标生成&#xa;• 节点启停与角色切换&#xa;• 阈值与优先级调整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-2" value="协同调度中心&#xa;• 全局状态聚合&#xa;• 轮次目标生成&#xa;• 节点启停与角色切换&#xa;• 阈值与优先级调整" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="90" width="480" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-3" value="语义处理模块&#xa;• Query/Key 描述提取&#xa;• 语义规整与编码&#xa;• 向量化映射&#xa;• 统一语义空间构建" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-3" value="语义处理模块&#xa;• Query/Key 描述提取&#xa;• 语义规整与编码&#xa;• 向量化映射&#xa;• 统一语义空间构建" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="180" y="330" width="360" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-4" value="一致性校验引擎&#xa;• 目标一致性检查&#xa;• 角色边界检查&#xa;• 冲突与风险识别&#xa;• 可信度评估与纠偏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-4" value="一致性校验引擎&#xa;• 目标一致性检查&#xa;• 角色边界检查&#xa;• 冲突与风险识别&#xa;• 可信度评估与纠偏" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="660" y="330" width="440" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-5" value="记忆与日志模块&#xa;• 局部记忆缓存&#xa;• 协同轨迹日志&#xa;• 冲突日志&#xa;• 演化历史记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-5" value="记忆与日志模块&#xa;• 局部记忆缓存&#xa;• 协同轨迹日志&#xa;• 冲突日志&#xa;• 演化历史记录" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="1230" y="330" width="330" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-6" value="可演进智能体节点群" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-6" value="可演进智能体节点群" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="600" width="1420" height="320" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-7" value="智能体节点 A&#xa;• 角色描述&#xa;• 局部记忆&#xa;• Query/Key生成&#xa;• 公共/私有输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" vertex="1" parent="Z2moJaxaL-ESW3EmwKZl-6">
@@ -170,7 +170,7 @@
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-14" value="反馈纠偏" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=1;strokeWidth=2;strokeColor=#b85450;fontSize=13;" edge="1" parent="Z2moJaxaL-ESW3EmwKZl-6" source="Z2moJaxaL-ESW3EmwKZl-10" target="Z2moJaxaL-ESW3EmwKZl-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;" vertex="1" parent="1">
+        <mxCell id="Z2moJaxaL-ESW3EmwKZl-15" value="策略演进模块&#xa;• 协同阈值优化&#xa;• 调度策略更新&#xa;• 路由规则演进&#xa;• 历史经验反馈" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="640" y="950" width="480" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Z2moJaxaL-ESW3EmwKZl-16" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;strokeWidth=2;" edge="1" parent="1" source="Z2moJaxaL-ESW3EmwKZl-2" target="Z2moJaxaL-ESW3EmwKZl-3">
