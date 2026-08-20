@@ -1,0 +1,101 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
+  <diagram id="PkbiKy-3xLDANyEk31rA" name="第 1 页">
+    <mxGraphModel dx="1239" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L1_Container" value="一层：网络运维层 (全局认知与 AI 策略引擎) - 运行于多核 ARM/服务器" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="940" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_Intent" value="战术意图与拓扑规划&#xa;• 确定当前任务模式 (如:静默/突防)&#xa;• 设定全局连通性预期拓扑矩阵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;spacingLeft=10;" parent="L1_Container" vertex="1">
+          <mxGeometry x="30" y="50" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_AI" value="智能波形策略寻优 (强化学习)&#xa;• 调取波形知识字典&#xa;• 匹配最佳 QoS 资源分配权重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;spacingLeft=10;" parent="L1_Container" vertex="1">
+          <mxGeometry x="270" y="50" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_StateEval" value="网络效能全景态势评估&#xa;• 融合多节点上报的 RTT/丢包率&#xa;• 维护数字孪生环境参数 x_t" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;align=left;spacingLeft=10;" parent="L1_Container" vertex="1">
+          <mxGeometry x="710" y="50" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Container" value="二层：分布式网关层 (协议路由与具体资源控制) - 运行于 SDN 交换芯片/NPU" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="940" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Route" value="路由控制组件&#xa;下发: ICN_NextHop / 队列优先级" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="L2_Container" vertex="1">
+          <mxGeometry x="30" y="60" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Rate" value="速率与时隙控制组件&#xa;下发: Target_Kbps / Epoch_Time" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="L2_Container" vertex="1">
+          <mxGeometry x="240" y="60" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Power" value="功率控制组件&#xa;下发: Tx_Power (dBm) / AGC_Level" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="L2_Container" vertex="1">
+          <mxGeometry x="450" y="60" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Dir" value="方向控制组件 (波束管理)&#xa;下发: Azimuth_Deg / Elev_Deg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="L2_Container" vertex="1">
+          <mxGeometry x="660" y="60" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_Container" value="三层：通感一体化数据链端机层 (虚拟化重构与硬件执行) - 运行于 FPGA/DSP/射频前端" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="940" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_SCA" value="波形虚拟化重构组件池 (SCA 标准架构)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;startSize=25;dashed=1;" parent="L3_Container" vertex="1">
+          <mxGeometry x="20" y="50" width="900" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_VMod" value="虚拟调制组件&#xa;(配置: Mod_Type, 滚降因子)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="L3_SCA" vertex="1">
+          <mxGeometry x="10" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_VCode" value="虚拟编码组件&#xa;(配置: FEC_Type, Code_Rate)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="L3_SCA" vertex="1">
+          <mxGeometry x="190" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_VSpread" value="虚拟扩跳频组件&#xa;(配置: Hop_Pattern, 跳频速率)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="L3_SCA" vertex="1">
+          <mxGeometry x="390" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_VSense" value="雷达/感知数据处理组件&#xa;(输出: RCS, 距离, 径向速度)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="L3_SCA" vertex="1">
+          <mxGeometry x="580" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_VChan" value="信道探针组件&#xa;(输出: 实时 SNR, BER)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#666666;" parent="L3_SCA" vertex="1">
+          <mxGeometry x="750" y="40" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_HAL" value="硬件抽象层 (VITA 49.2 协议封装 / AXI 寄存器映射)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1;" parent="L3_Container" vertex="1">
+          <mxGeometry x="20" y="170" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_PHY" value="底座：射频前端 / 相控阵天线矩阵" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffffff;strokeColor=#82b366;fontStyle=1;" parent="L3_Container" vertex="1">
+          <mxGeometry x="20" y="210" width="600" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="e_l1_l2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#0055ff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L1_AI" target="L2_Container" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_l1_l2" value="[下行] 战术指令字典映射：&#xa;传输类别 (QoS_Class)&#xa;安全等级 (Security_Level)&#xa;抗干扰模式标志 (Anti-Jam_Flag)" parent="e_l1_l2" edge="1">
+          <mxGeometry x="0.2" y="1" relative="1" as="geometry">
+            <mxPoint x="100" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_l2_l3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#0055ff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L2_Container" target="L3_Container" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_l2_l3" value="[下行] 物理层执行参数 (结构体)：&#xa;Target_Kbps, Tx_Power_dBm&#xa;Mod_Type, FEC_Type, Code_Rate&#xa;Hop_Pattern_ID, Azimuth_Deg" parent="e_l2_l3" edge="1">
+          <mxGeometry x="0.1" y="2" relative="1" as="geometry">
+            <mxPoint x="100" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#ff0000;dashed=1;exitX=0.9;exitY=0;exitDx=0;exitDy=0;entryX=0.85;entryY=1;entryDx=0;entryDy=0;" parent="1" source="L3_SCA" target="L1_StateEval" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="600" />
+              <mxPoint x="880" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_feedback" value="[上行] 测量与感知态势反馈 (带时间戳)：&#xa;信噪比 SNR / 误码率 BER&#xa;功放温度遥测 PA_Temp&#xa;雷达感知目标特征 RCS_Data&#xa;MAC层丢包率 PER" parent="e_feedback" edge="1">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint x="-90" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sca_hal" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1.5;strokeColor=#333333;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L3_SCA" target="L3_HAL" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label_sca_hal" value="写入 AXI-Lite 控制字寄存器 / VITA 数据帧流" parent="e_sca_hal" edge="1">
+          <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
+            <mxPoint x="110" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
