@@ -70,7 +70,7 @@
         <mxCell id="output_eval" value="运行评估与优化结果&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;任务完成情况、网络性能&lt;br&gt;资源利用率、异常状态&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=14;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="490" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="deployment" value="云—边—端分级部署关系（与五层逻辑架构解耦）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;strokeWidth=1.5;fontSize=16;fontStyle=1;fontColor=#334155;" parent="1" vertex="1">
+        <mxCell id="deployment" value="云—边—端分级部署关系（与五层逻辑架构解耦）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#64748B;strokeWidth=1.5;fontSize=16;fontStyle=1;fontColor=#334155;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="30" y="725" width="1500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cloud" value="云端&lt;br&gt;&lt;font style=&quot;font-size:11px;font-weight:normal&quot;&gt;全局任务统筹 · 资源分析 · 策略优化&lt;br&gt;模型与仿真管理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0E7FF;strokeColor=#4F46E5;strokeWidth=1.5;fontSize=13;fontStyle=1;" parent="1" vertex="1">
