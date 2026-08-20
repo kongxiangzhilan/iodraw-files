@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ioDrawFile>
+<mxfile host="ioDraw" version="1.0">
+<diagram name="附图1_端边云三级分层拓扑">
+<mxGraphModel>
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="2" value="云端大模型层\n全局知识库\n语义推理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="600" y="80" width="260" height="100" as="geometry"/></mxCell><mxCell id="3" value="边缘中枢层\n轻量知识库\n调度控制器\n通信网关" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="560" y="280" width="340" height="120" as="geometry"/></mxCell><mxCell id="4" value="端侧异构智能体\n传感终端\n特征缓存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="600" y="520" width="260" height="100" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>
+</ioDrawFile>
