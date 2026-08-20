@@ -1,13 +1,13 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram id="smart-network-architecture" name="智能传输组网总体架构">
-    <mxGraphModel dx="1499" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="606" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="智能传输组网总体架构——分层解耦、闭环自治" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1F2937;" parent="1" vertex="1">
           <mxGeometry x="430" y="20" width="740" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="input_group" value="系统输入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#94A3B8;strokeWidth=1.5;fontSize=16;fontStyle=1;fontColor=#334155;" parent="1" vertex="1">
+        <mxCell id="input_group" value="系统输入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#94A3B8;strokeWidth=1.5;fontSize=16;fontStyle=1;fontColor=#334155;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="30" y="100" width="230" height="590" as="geometry" />
         </mxCell>
         <mxCell id="input_task" value="任务与业务需求&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;任务目标、子任务&lt;br&gt;优先级、截止时间&lt;br&gt;时延、吞吐、可靠性&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0F2FE;strokeColor=#0284C7;strokeWidth=1.5;fontSize=14;fontStyle=1;" parent="1" vertex="1">
