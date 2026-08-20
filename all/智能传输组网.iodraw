@@ -82,7 +82,7 @@
         <mxCell id="terminal" value="端侧&lt;br&gt;&lt;font style=&quot;font-size:11px;font-weight:normal&quot;&gt;局部感知 · 数据处理 · 即时通信&lt;br&gt;任务执行&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#D97706;strokeWidth=1.5;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1100" y="760" width="380" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="support" value="MBSE 与模型驱动仿真支撑体系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#475569;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1E293B;align=center;" parent="1" vertex="1">
+        <mxCell id="support" value="MBSE 与模型驱动仿真支撑体系" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1F5F9;strokeColor=#475569;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#1E293B;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="285" y="870" width="920" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mbse" value="MBSE系统建模&lt;br&gt;&lt;font style=&quot;font-size:11px;font-weight:normal&quot;&gt;需求—功能—架构—行为—验证&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#64748B;fontSize=12;fontStyle=1;" parent="1" vertex="1">
