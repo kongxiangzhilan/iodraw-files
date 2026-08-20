@@ -1,0 +1,191 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
+  <diagram id="gn5Y6nPezgZqKnUZqhxd" name="第 1 页">
+    <mxGraphModel dx="1334" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Layer1" value="一、网络运维层（控制与管理平面）" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="41" width="720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_Intent" value="意图解析模块&lt;br&gt;• 指令输入&lt;br&gt;• 动态映射评估指标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="Layer1" vertex="1">
+          <mxGeometry x="30" y="55" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_Mem" value="MCI 稳态经验库&#xa;• 历史决策沉淀&#xa;• 模型闭环迭代" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="Layer1" vertex="1">
+          <mxGeometry x="540" y="45" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L1_Vis" value="接口：一级运维总控视图 (状态监控 / 人工参数干预)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;dashed=1;" parent="Layer1" vertex="1">
+          <mxGeometry x="30" y="135" width="650" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_v1_io" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1;strokeColor=#333333;startArrow=classic;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="Layer1" source="L1_Intent" target="L1_Vis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="125" />
+              <mxPoint x="193" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L1_UCB" value="Lin-UCB 认知决策引擎&#xa;• 拓扑+频谱联合规划&#xa;★ 核心创新：跨层波形选择决策" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;strokeColor=#ff0000;fontStyle=1;" parent="Layer1" vertex="1">
+          <mxGeometry x="260" y="50" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_l1_intent_to_ucb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1.5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Layer1" source="L1_Intent" target="L1_UCB" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_mem_to_ucb" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1.5;strokeColor=#6c8ebf;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Layer1" source="L1_Mem" target="L1_UCB" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-3" value="&lt;font color=&quot;#3333ff&quot;&gt;标准控制信令流&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="Layer1" vertex="1">
+          <mxGeometry x="210" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-4" value="通感语义数据流" style="text;whiteSpace=wrap;html=1;fontColor=#009900;" parent="Layer1" vertex="1">
+          <mxGeometry x="510" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-6" value="任务评估&lt;div&gt;指标&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="Layer1" vertex="1">
+          <mxGeometry x="204" y="45" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-7" value="历史决策&lt;div&gt;快照&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="Layer1" vertex="1">
+          <mxGeometry x="490" y="39" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Layer2" value="二、分布式网关层（ICN 转发与算力协同）" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="720" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Queue" value="双平面业务分离调度队列&#xa;• 下行控制队列 (时延保障)&#xa;• 上行感知队列 (AoI时效调度)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="Layer2" vertex="1">
+          <mxGeometry x="30" y="55" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_ICN" value="ICN 内容路由模块&#xa;• 名字空间寻址转发&#xa;• 纵向管控与横向网格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="Layer2" vertex="1">
+          <mxGeometry x="270" y="55" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Cache" value="网内分布式缓存&#xa;• 拓扑断链本地兜底&#xa;• 消除冗余通感传输" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;" parent="Layer2" vertex="1">
+          <mxGeometry x="515" y="55" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="L2_Vis" value="接口：二级网关网络视图 (全网路由状态 / 业务流量分布)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;dashed=1;" parent="Layer2" vertex="1">
+          <mxGeometry x="30" y="145" width="650" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_v2_io" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1;strokeColor=#333333;startArrow=classic;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Layer2" source="L2_ICN" target="L2_Vis" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_data_up" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#2e7d32;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="Layer2" target="L2_ICN" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="220" />
+              <mxPoint x="510" y="220" />
+              <mxPoint x="510" y="120" />
+            </Array>
+            <mxPoint x="660" y="355" as="sourcePoint" />
+            <mxPoint x="355" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_data_up" value="合并通感语义数据流" parent="edge_data_up" edgeLabel="1" connectable="0">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-1" value="&lt;font color=&quot;#ff0000&quot;&gt;波形控制指令&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="Layer2" vertex="1">
+          <mxGeometry x="20" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-2" value="&#xa;标准控制信令流&#xa;&#xa;" style="text;whiteSpace=wrap;html=1;fontColor=#0000FF;" parent="Layer2" vertex="1">
+          <mxGeometry x="200" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-5" value="通感语义数据流" style="text;whiteSpace=wrap;html=1;fontColor=#009900;" parent="Layer2" vertex="1">
+          <mxGeometry x="520" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-8" value="内容检索报文" style="text;whiteSpace=wrap;html=1;" parent="Layer2" vertex="1">
+          <mxGeometry x="190" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-9" value="内容检索报文" style="text;whiteSpace=wrap;html=1;" parent="Layer2" vertex="1">
+          <mxGeometry x="450" y="55" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Layer3" value="三、通感一体化数据链端机层（物理传输与环境感知）" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;startSize=30;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_HAL" value="硬件抽象层 HAL&#xa;• VITA 49协议封装&#xa;• 软硬件标准对接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;" parent="Layer3" vertex="1">
+          <mxGeometry x="330" y="55" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_FPGA" value="FPGA 硬件形态栈&#xa;• ISAC 资源切片器 (时频硬隔离)&#xa;• 多模自适应调制解调核 (DSSS/OFDM)&#xa;• 本地信道快速跟踪单元" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" parent="Layer3" vertex="1">
+          <mxGeometry x="50" y="45" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="L3_Vis" value="接口：三级端机物理视图 (传感器PPI画面 / 实时信道质量 / 物理层误码监控)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;dashed=1;" parent="Layer3" vertex="1">
+          <mxGeometry x="30" y="165" width="650" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_hal_to_fpga" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1.5;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="Layer3" source="L3_HAL" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="88.75" as="sourcePoint" />
+            <mxPoint x="280" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3_Front" value="通感前端采集模块&lt;br&gt;• 传感器探测预处理&lt;br&gt;• 4维信道特征提取 (x&lt;sub&gt;t&lt;/sub&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" parent="Layer3" vertex="1">
+          <mxGeometry x="550" y="55" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_v3_io" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1;strokeColor=#333333;startArrow=classic;endArrow=classic;entryX=0.35;entryY=0;entryDx=0;entryDy=0;" parent="Layer3" target="L3_Vis" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="120" />
+              <mxPoint x="630" y="150" />
+              <mxPoint x="258" y="150" />
+            </Array>
+            <mxPoint x="630" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-10" value="标准化执行参数" style="text;whiteSpace=wrap;html=1;" parent="Layer3" vertex="1">
+          <mxGeometry x="250" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7b3k3BxvJyTJ3lfJrxy1-11" value="状态遥测与干预流" style="text;whiteSpace=wrap;html=1;" parent="Layer3" vertex="1">
+          <mxGeometry x="490" y="120" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_core_innovation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=3;strokeColor=#ff0000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L1_UCB" target="L3_FPGA" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="160" />
+              <mxPoint x="240" y="220" />
+              <mxPoint x="50" y="220" />
+              <mxPoint x="50" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_innovation" value="★ 跨层波形控制指令直接下发通道" parent="edge_core_innovation" edgeLabel="1" connectable="0">
+          <mxGeometry x="-0.75" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_control_down" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#0055ff;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L1_UCB" target="L2_Queue" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="160" />
+              <mxPoint x="250" y="280" />
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_ctrl_down" value="合并控制信令流" parent="edge_control_down" edgeLabel="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_l2_to_l3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#0055ff;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L2_Queue" target="L3_HAL" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="360" />
+              <mxPoint x="220" y="520" />
+              <mxPoint x="450" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_l2_data_to_l1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#2e7d32;exitX=0.891;exitY=0.013;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="L2_ICN" target="L1_UCB" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="296" />
+              <mxPoint x="460" y="280" />
+              <mxPoint x="550" y="280" />
+              <mxPoint x="550" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_l2_icn_to_cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=1.5;startArrow=classic;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L2_ICN" target="L2_Cache" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
