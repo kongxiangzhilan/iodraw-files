@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ioDrawFile>
+<mxfile host="ioDraw" version="1.0">
+<diagram name="附图2_联合优化数学逻辑">
+<mxGraphModel>
+<root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<mxCell id="2" value="状态输入\n算力/带宽/知识库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="100" y="100" width="200" height="70" as="geometry"/></mxCell><mxCell id="3" value="通道重要度计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="400" y="100" width="220" height="70" as="geometry"/></mxCell><mxCell id="4" value="知识库传输时延计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="700" y="100" width="220" height="70" as="geometry"/></mxCell><mxCell id="5" value="互斥约束+收益函数+梯度校正" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="450" y="300" width="300" height="100" as="geometry"/></mxCell><mxCell id="6" value="联合调度策略输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="500" y="500" width="220" height="70" as="geometry"/></mxCell>
+</root>
+</mxGraphModel>
+</diagram>
+</mxfile>
+</ioDrawFile>
