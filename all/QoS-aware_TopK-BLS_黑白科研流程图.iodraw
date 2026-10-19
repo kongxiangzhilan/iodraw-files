@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram id="QOS-TOPK-BLS" name="QoS-aware TopK-BLS 方法框架">
-    <mxGraphModel dx="1424" dy="755" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3110" pageHeight="1250" math="1" shadow="0">
+    <mxGraphModel dx="1675" dy="888" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3110" pageHeight="1250" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
           <mxGeometry x="762" y="244" width="96" height="55" as="geometry" />
         </mxCell>
         <mxCell id="text035" value="$$\alpha_1$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="765" y="233" width="90" height="48" as="geometry" />
+          <mxGeometry x="765" y="233" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="edge036" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.3;endArrow=none;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
