@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram id="QOS-TOPK-BLS" name="QoS-aware TopK-BLS 方法框架">
-    <mxGraphModel dx="2589" dy="1373" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3110" pageHeight="1250" math="1" shadow="0">
+    <mxGraphModel dx="730" dy="387" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3110" pageHeight="1250" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -562,7 +562,7 @@
           <mxGeometry x="2710" y="838" width="290" height="42" as="geometry" />
         </mxCell>
         <mxCell id="text139" value="$$\left|\mathcal{Q}\right|=K=10$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=17;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="2730" y="880" width="250" height="27" as="geometry" />
+          <mxGeometry x="2726" y="853" width="250" height="45" as="geometry" />
         </mxCell>
         <mxCell id="edge140" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.65;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -592,7 +592,7 @@
           <mxGeometry x="2656" y="1050" width="351" height="45" as="geometry" />
         </mxCell>
         <mxCell id="text145" value="$$\mathcal{Q}^{*}=\{(\mathbf{s}^{*},\mathbf{u}^{(i)})\}_{i=1}^{10}$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=19;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="2657" y="1099" width="347" height="38" as="geometry" />
+          <mxGeometry x="2653" y="1076.5" width="347" height="54.5" as="geometry" />
         </mxCell>
         <mxCell id="edge146" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.65;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
