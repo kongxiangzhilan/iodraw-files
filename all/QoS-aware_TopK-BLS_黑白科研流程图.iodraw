@@ -146,7 +146,7 @@
           <mxGeometry x="550" y="355" width="126" height="42" as="geometry" />
         </mxCell>
         <mxCell id="text032" value="$$\mathcal{T}(\mathbf{u})$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=21;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="554" y="387" width="118" height="34" as="geometry" />
+          <mxGeometry x="554" y="387" width="118" height="58" as="geometry" />
         </mxCell>
         <mxCell id="text033" value="四业务份额" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=24;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="734" y="198" width="186" height="44" as="geometry" />
@@ -155,7 +155,7 @@
           <mxGeometry x="762" y="244" width="96" height="55" as="geometry" />
         </mxCell>
         <mxCell id="text035" value="$$\alpha_1$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="765" y="247" width="90" height="48" as="geometry" />
+          <mxGeometry x="765" y="246" width="90" height="48" as="geometry" />
         </mxCell>
         <mxCell id="edge036" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.3;endArrow=none;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -167,7 +167,7 @@
           <mxGeometry x="762" y="326" width="96" height="55" as="geometry" />
         </mxCell>
         <mxCell id="text038" value="$$\alpha_2$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="765" y="329" width="90" height="48" as="geometry" />
+          <mxGeometry x="765" y="328" width="90" height="48" as="geometry" />
         </mxCell>
         <mxCell id="edge039" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.3;endArrow=none;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -179,7 +179,7 @@
           <mxGeometry x="762" y="408" width="96" height="55" as="geometry" />
         </mxCell>
         <mxCell id="text041" value="$$\alpha_3$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="765" y="411" width="90" height="48" as="geometry" />
+          <mxGeometry x="765" y="410" width="90" height="48" as="geometry" />
         </mxCell>
         <mxCell id="edge042" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.3;endArrow=none;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -191,7 +191,7 @@
           <mxGeometry x="762" y="490" width="96" height="55" as="geometry" />
         </mxCell>
         <mxCell id="text044" value="$$\alpha_4$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="765" y="493" width="90" height="48" as="geometry" />
+          <mxGeometry x="765" y="477" width="90" height="61" as="geometry" />
         </mxCell>
         <mxCell id="edge045" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.3;endArrow=none;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
