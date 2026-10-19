@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="app.diagrams.net" modified="2026-10-18T16:36:20+00:00" agent="GPT-6" version="24.7.17" type="device">
+  <diagram id="qos_topkbls_v4" name="QoS-aware TopK-BLS 科研架构">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2160" pageHeight="1220" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="canvas" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="2140" height="1198" as="geometry"/>
+        </mxCell>
+        <mxCell id="main_title" value="QoS-aware TopK-BLS 约束增强搜索框架" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=32;fontColor=#09263E;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="68" y="23" width="2010" height="46" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="共享配置演化  ·  约束感知 Top-K 方案集搜索  ·  响应面代理评价" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#526578;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="67" width="1260" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="upper_panel" value="" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#F1F7FD;strokeColor=#3E87C3;strokeWidth=2;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="35" y="105" width="2090" height="230" as="geometry"/>
+        </mxCell>
+        <mxCell id="upper_tag" value="" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#2D6CA2;strokeColor=#2D6CA2;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="54" y="121" width="110" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="upper_tag_title" value="上层" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#FFFFFF;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="121" width="98" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="upper_head" value="共享配置搜索  |  搜索共享参数 s ∈ Ωs" style="text;html=1;whiteSpace=wrap;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#123A5A;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="187" y="122" width="1750" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="upper_desc" value="种群规模 n · 共享变量维数 5" style="text;html=1;whiteSpace=wrap;rounded=0;align=right;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=14;fontColor=#526578;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="134" width="480" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="u1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2D6CA2;strokeWidth=1.5;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="64" y="181" width="425" height="126" as="geometry"/>
+        </mxCell>
+        <mxCell id="u2" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2D6CA2;strokeWidth=1.5;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="525" y="181" width="425" height="126" as="geometry"/>
+        </mxCell>
+        <mxCell id="u3" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2D6CA2;strokeWidth=1.5;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="986" y="181" width="425" height="126" as="geometry"/>
+        </mxCell>
+        <mxCell id="u4" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#2D6CA2;strokeWidth=1.5;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1447" y="181" width="645" height="126" as="geometry"/>
+        </mxCell>
+        <mxCell id="u1h" value="① 共享种群及邻域构建" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#123A5A;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="193" width="375" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="u1b" value="{sᵢ}ⁿᵢ₌₁&lt;br&gt;归一化共享空间距离 · T 近邻" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="93" y="231" width="355" height="59" as="geometry"/>
+        </mxCell>
+        <mxCell id="u2h" value="② 差分进化产生候选" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#123A5A;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="548" y="193" width="379" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="u2b" value="ŝᵢ = DE(sᵢ, B(i))&lt;br&gt;变异 + 交叉 + 边界修复" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="561" y="232" width="348" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="u3h" value="③ 条件 Top-K 集合求解" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#123A5A;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1003" y="193" width="392" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="u3b" value="固定共享配置 ŝᵢ&lt;br&gt;调用下层，获得 P(ŝᵢ)" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1017" y="232" width="361" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="u4h" value="④ 集合级排序与共享配置更新" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=20;fontColor=#123A5A;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1471" y="192" width="584" height="29" as="geometry"/>
+        </mxCell>
+        <mxCell id="u4b" value="未形成完整可行集：优先增加 Nf、降低 CV&lt;br&gt;全部 K 个可行：以 HV 比较集合质量&lt;br&gt;更优则更新 (sᵢ, pᵢ)；否则保留父代" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1473" y="226" width="583" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_u1_u2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D6CA2;strokeWidth=3.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u1" target="u2" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_u2_u3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D6CA2;strokeWidth=3.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u2" target="u3" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_u3_u4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D6CA2;strokeWidth=3.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u3" target="u4" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="lower_panel" value="" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#F0FAF6;strokeColor=#2A947A;strokeWidth=2;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="35" y="374" width="2090" height="561" as="geometry"/>
+        </mxCell>
+        <mxCell id="lower_tag" value="" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#167969;strokeColor=#167969;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="54" y="390" width="112" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="lower_tag_title" value="下层" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=24;fontColor=#FFFFFF;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="61" y="390" width="97" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="lower_head" value="给定共享配置 ŝᵢ 的 Top-K 方案集搜索  |  连接向量 p = (u₁, …, uK)" style="text;html=1;whiteSpace=wrap;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#145448;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="186" y="391" width="1750" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="lower_right" value="每个方案：4 类业务 × 8 条 QoS 约束" style="text;html=1;whiteSpace=wrap;rounded=0;align=right;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=14;fontColor=#38665D;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="397" width="368" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E8F4FC;strokeColor=#2D6CA2;strokeWidth=1.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="471" width="364" height="402" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_stripe" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#2D6CA2;strokeColor=#2D6CA2;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="55" y="471" width="364" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_header" value="① 初始化与候选生成" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#2D6CA2;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="69" y="492" width="336" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_sub" value="约束感知搜索步长" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#2D6CA2;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="71" y="531" width="332" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF6E9;strokeColor=#B77A36;strokeWidth=1.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="453" y="471" width="364" height="402" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_stripe" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#B77A36;strokeColor=#B77A36;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="453" y="471" width="364" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_header" value="② 代理评价" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#B77A36;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="467" y="492" width="336" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_sub" value="RSM 快速预测" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#B77A36;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="469" y="531" width="332" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFF1F3;strokeColor=#AF485C;strokeWidth=1.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="851" y="471" width="364" height="402" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_stripe" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#AF485C;strokeColor=#AF485C;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="851" y="471" width="364" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_header" value="③ 候选比较" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#AF485C;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="865" y="492" width="336" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_sub" value="约束支配关系" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#AF485C;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="867" y="531" width="332" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#E8F7F0;strokeColor=#167969;strokeWidth=1.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="471" width="364" height="402" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_stripe" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#167969;strokeColor=#167969;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="471" width="364" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_header" value="④ 环境选择" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#167969;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1263" y="492" width="336" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_sub" value="可行优先 HSSP" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#167969;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1265" y="531" width="332" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F5F0FD;strokeColor=#7154A5;strokeWidth=1.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1647" y="471" width="449" height="402" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_stripe" value="" style="rounded=0;arcSize=14;whiteSpace=wrap;html=1;fillColor=#7154A5;strokeColor=#7154A5;strokeWidth=0;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1647" y="471" width="449" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_header" value="⑤ 邻域协作与集合反馈" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=21;fontColor=#7154A5;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1661" y="492" width="421" height="33" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_sub" value="共享 u · 重新评价" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#7154A5;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1663" y="531" width="417" height="27" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_a" value="邻域迁移与历史归档&lt;br&gt;初始化连接向量 p" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CC5DF;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="76" y="576" width="322" height="68" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_b" value="根据约束违反状态调节扰动&lt;br&gt;η = 1 + 2·max(0, CV)&lt;br&gt;Δu′ = η·Δu" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CC5DF;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="76" y="655" width="322" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="c1_c" value="差分变异与交叉&lt;br&gt;产生新候选分配向量 û" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CC5DF;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="76" y="750" width="322" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_a" value="形成完整候选配置&lt;br&gt;x = (ŝᵢ, û)" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C694;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="474" y="576" width="322" height="68" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_b" value="向 RSM 请求网络性能预测&lt;br&gt;二阶多项式回归 + Kriging" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C694;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="474" y="655" width="322" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="c2_c" value="得到目标值 f₁、f₂&lt;br&gt;约束 g、违反度 CV、有效性 m" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C694;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="474" y="750" width="322" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_a" value="一方可行、一方不可行&lt;br&gt;→ 优先可行方案" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E8A5B4;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="872" y="576" width="322" height="68" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_b" value="双方均不可行&lt;br&gt;→ 优先约束缺失少、违反度低者" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E8A5B4;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="872" y="655" width="322" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="c3_c" value="双方均可行&lt;br&gt;→ 基于 Pareto 支配关系比较" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E8A5B4;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="872" y="750" width="322" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_a" value="父代 + 子代候选合并&lt;br&gt;形成至多 2K 个候选" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A7D4C2;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="576" width="322" height="68" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_b" value="可行候选足够：&lt;br&gt;按二维 HV 子集选择保留 K 个互异解" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A7D4C2;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="655" width="322" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4_c" value="可行候选不足：保留可行成员&lt;br&gt;不可行方案临时回填至 K 个" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#A7D4C2;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="750" width="322" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_a" value="邻域间迁移分配向量 u&lt;br&gt;在接收方共享配置下重新评价" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFADE3;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1669" y="576" width="406" height="68" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_b" value="维护候选集合与历史归档&lt;br&gt;更新优良下层方案" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFADE3;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=17;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1669" y="655" width="406" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="c5_c" value="汇总集合质量反馈&lt;br&gt;可行数 Nf · 集合 CV · 可行 HV" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFADE3;strokeWidth=1;fontFamily=Noto Sans CJK SC;fontSize=16;fontColor=#253746;align=center;verticalAlign=middle;spacing=7;" vertex="1" parent="1">
+          <mxGeometry x="1669" y="750" width="406" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_c1_c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D6CA2;strokeWidth=3.7;endArrow=block;endFill=1;exitX=1;exitY=0.52;exitDx=0;exitDy=0;entryX=0;entryY=0.52;entryDx=0;entryDy=0;" edge="1" parent="1" source="c1" target="c2" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_c2_c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B77A36;strokeWidth=3.7;endArrow=block;endFill=1;exitX=1;exitY=0.52;exitDx=0;exitDy=0;entryX=0;entryY=0.52;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2" target="c3" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_c3_c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#AF485C;strokeWidth=3.7;endArrow=block;endFill=1;exitX=1;exitY=0.52;exitDx=0;exitDy=0;entryX=0;entryY=0.52;entryDx=0;entryDy=0;" edge="1" parent="1" source="c3" target="c4" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_c4_c5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#167969;strokeWidth=3.7;endArrow=block;endFill=1;exitX=1;exitY=0.52;exitDx=0;exitDy=0;entryX=0;entryY=0.52;entryDx=0;entryDy=0;" edge="1" parent="1" source="c4" target="c5" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="feedback_strip" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#D8EFE7;strokeColor=#C3E6DB;strokeWidth=0.7;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="889" width="2020" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="feedback_legend" value="约束反馈：CV 调节下一轮搜索幅度     |     邻域协作：迁移 u 后重新评价     |     集合质量：反馈上层配置竞争" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#1E6959;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="891" width="1750" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_upper_down" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2D6CA2;strokeWidth=4;endArrow=block;endFill=1;exitX=0.48;exitY=1;exitDx=0;exitDy=0;entryX=0.56;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="u3" target="lower_panel" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1197" y="348"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pipe_label_down" value="固定共享配置 ŝᵢ  ↓" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#2D6CA2;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="343" width="280" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_lower_up" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#7154A5;strokeWidth=4;endArrow=block;endFill=1;exitX=0.9;exitY=0;exitDx=0;exitDy=0;entryX=0.83;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c5" target="u4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2098" y="355"/>
+              <mxPoint x="1936" y="355"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pipe_label_up" value="↑ 返回 P(ŝᵢ)、Nf、CV、HV" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#7154A5;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1713" y="345" width="360" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm_panel" value="" style="rounded=1;arcSize=11;whiteSpace=wrap;html=1;fillColor=#FFF8EC;strokeColor=#DCA361;strokeWidth=2;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="35" y="971" width="2090" height="224" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm_header" value="RSM 响应面代理评价  |  为下层候选比较与约束感知搜索提供性能估计" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=23;fontColor=#68431E;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="988" width="1670" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm1" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C394;strokeWidth=1.4;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1043" width="550" height="112" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm2" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C394;strokeWidth=1.4;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1043" width="600" height="112" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm3" value="" style="rounded=1;arcSize=9;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E6C394;strokeWidth=1.4;shadow=0;fontColor=#253746;fontFamily=Noto Sans CJK SC;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="1043" width="732" height="112" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm1_txt" value="&lt;b&gt;ns-3 多随机种子仿真数据&lt;/b&gt;&lt;br&gt;离线构建训练样本与 QoS 响应" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=18;fontColor=#654B2C;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82" y="1056" width="510" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm2_txt" value="&lt;b&gt;RSM 代理模型&lt;/b&gt;&lt;br&gt;二阶多项式回归 + Kriging&lt;br&gt;在搜索过程中快速预测网络响应" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=18;fontColor=#654B2C;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="714" y="1056" width="552" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="rsm3_txt" value="&lt;b&gt;目标与约束映射&lt;/b&gt;&lt;br&gt;四业务鲁棒时延与鲁棒丢包&lt;br&gt;f₁、f₂ · 8 条约束 g · CV · 缺失标记 m" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=18;fontColor=#654B2C;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="1056" width="687" height="83" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rsm1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B77A36;strokeWidth=3.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rsm1" target="rsm2" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_rsm2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B77A36;strokeWidth=3.5;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rsm2" target="rsm3" value="">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_proxy_interface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B77A36;strokeWidth=2.8;endArrow=block;endFill=1;startArrow=block;startFill=1;dashed=1;dashPattern=8 5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="c2" target="rsm2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633" y="949"/>
+              <mxPoint x="975" y="949"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rsm_pipe" value="候选预测请求 ↕ 目标及约束返回" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#B77A36;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="941" width="480" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="small_legend" value="图注：蓝色表示共享配置搜索；青绿为集合搜索与选择；橙色为代理评价。K 为方案数（此处 K=10），b 为业务索引（b=1,…,4）。" style="text;html=1;whiteSpace=wrap;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=13;fontColor=#526578;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1170" width="2000" height="19" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
