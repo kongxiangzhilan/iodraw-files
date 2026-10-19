@@ -267,9 +267,6 @@
         <mxCell id="rsm_pipe" value="候选预测请求 ↕ 目标及约束返回" style="text;html=1;whiteSpace=wrap;rounded=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=15;fontColor=#B77A36;fontStyle=1;overflow=hidden;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="655" y="941" width="480" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="small_legend" value="图注：蓝色表示共享配置搜索；青绿为集合搜索与选择；橙色为代理评价。K 为方案数（此处 K=10），b 为业务索引（b=1,…,4）。" style="text;html=1;whiteSpace=wrap;rounded=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Noto Sans CJK SC;fontSize=13;fontColor=#526578;fontStyle=0;overflow=hidden;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="70" y="1170" width="2000" height="19" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
