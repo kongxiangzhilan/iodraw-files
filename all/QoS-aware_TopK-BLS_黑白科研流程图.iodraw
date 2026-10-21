@@ -263,7 +263,7 @@
           <mxGeometry x="1038" y="209" width="176" height="37" as="geometry" />
         </mxCell>
         <mxCell id="text065" value="$$S=\{\mathbf{s}_i\}$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=18;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="247" width="152" height="26" as="geometry" />
+          <mxGeometry x="1050" y="218" width="152" height="48" as="geometry" />
         </mxCell>
         <mxCell id="thin066" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#151515;strokeWidth=1.15;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="1259" y="209" width="108" height="67" as="geometry" />
@@ -272,7 +272,7 @@
           <mxGeometry x="1262" y="209" width="102" height="36" as="geometry" />
         </mxCell>
         <mxCell id="text068" value="$$B(i)$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=19;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="1269" y="246" width="89" height="27" as="geometry" />
+          <mxGeometry x="1268.5" y="223" width="89" height="27" as="geometry" />
         </mxCell>
         <mxCell id="thin069" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#151515;strokeWidth=1.15;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="1411" y="209" width="108" height="67" as="geometry" />
