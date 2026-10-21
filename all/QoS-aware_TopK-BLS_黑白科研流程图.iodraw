@@ -272,7 +272,7 @@
           <mxGeometry x="1262" y="209" width="102" height="36" as="geometry" />
         </mxCell>
         <mxCell id="text068" value="$$B(i)$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=19;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="1268.5" y="223" width="89" height="27" as="geometry" />
+          <mxGeometry x="1268.5" y="217" width="89" height="49" as="geometry" />
         </mxCell>
         <mxCell id="thin069" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#151515;strokeWidth=1.15;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="1411" y="209" width="108" height="67" as="geometry" />
@@ -281,7 +281,7 @@
           <mxGeometry x="1414" y="209" width="102" height="36" as="geometry" />
         </mxCell>
         <mxCell id="text071" value="$$\hat{\mathbf{s}}$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="1422" y="245" width="83" height="29" as="geometry" />
+          <mxGeometry x="1423.5" y="213" width="83" height="53" as="geometry" />
         </mxCell>
         <mxCell id="edge072" value="" style="edgeStyle=none;rounded=0;html=0;strokeColor=#151515;strokeWidth=1.65;endArrow=block;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
