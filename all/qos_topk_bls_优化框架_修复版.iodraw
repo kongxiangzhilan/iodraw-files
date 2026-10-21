@@ -197,7 +197,7 @@
         <mxCell id="63" value="5. 子代评估&lt;br/&gt;（RSM）&lt;br/&gt;&lt;br/&gt;对 (s, û) 进行&lt;br/&gt;RSM 评估&lt;br/&gt;计算 f₁, f₂, CV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1385" y="600" width="170" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="64" value="6. 约束支配比较&lt;br/&gt;（创新 2）&lt;br/&gt;&lt;br/&gt;可行解优先；在可行解内按 Pareto 支配比较；&lt;br/&gt;不可行解按 CV 从小到大比较" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="64" value="6. 约束支配比较&lt;br&gt;可行解优先；可行解内按 Pareto 支配比较；&lt;br&gt;不可行解按 CV 从小到大比较" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="920" y="780" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="65" value="7. 可行优先的 HSSP 环境选择&lt;br/&gt;（创新 3）&lt;br/&gt;&lt;br/&gt;分层非支配排序 + 精英距离&lt;br/&gt;HV 子集选择，保留 K = 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
