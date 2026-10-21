@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram id="qos-topk-bls" name="Page-1">
-    <mxGraphModel dx="1424" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="1" shadow="0">
+    <mxGraphModel dx="863" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,10 +146,7 @@
         <mxCell id="46" value="随机初始化&lt;br/&gt;K 个 u 候选集" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="65" y="630" width="180" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="47" value="或从上一代继承" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="65" y="695" width="180" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="48" value="RSM 代理模型&lt;br/&gt;（离线训练）&lt;br/&gt;&lt;br/&gt;LHS 采样 + 仿真&lt;br/&gt;训练 RSM 模型&lt;br/&gt;（在线仅预测）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="48" value="RSM 代理模型&lt;br&gt;（离线训练）&lt;br&gt;&lt;br&gt;LHS 采样 + 仿真&lt;br&gt;训练 RSM 模型&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="45" y="785" width="220" height="150" as="geometry" />
         </mxCell>
         <mxCell id="49" value="2. RSM 代理评估与&lt;br/&gt;鲁棒 QoS 计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
@@ -215,7 +212,7 @@
         <mxCell id="69" value="第1　q&lt;sup&gt;(1)&lt;/sup&gt; (s*, u&lt;sup&gt;(1)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1965" y="625" width="150" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="70" value="第2　q&lt;sup&gt;(2)&lt;/sup&gt; (s, u&lt;sup&gt;(2)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="70" value="　q&lt;sup&gt;(2)&lt;/sup&gt; (s, u&lt;sup&gt;(2)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1700" y="653" width="145" height="23" as="geometry" />
         </mxCell>
         <mxCell id="71" value="第2　q&lt;sup&gt;(2)&lt;/sup&gt; (s*, u&lt;sup&gt;(2)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
