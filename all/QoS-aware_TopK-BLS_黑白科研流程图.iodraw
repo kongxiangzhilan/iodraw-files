@@ -458,7 +458,7 @@
             <mxPoint x="2536" y="466" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="text116" value="逐业务硬约束（共 8 条）" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=21;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
+        <mxCell id="text116" value="逐业务硬约束" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=21;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="2253" y="434" width="392" height="43" as="geometry" />
         </mxCell>
         <mxCell id="thin117" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#151515;strokeWidth=1.15;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
