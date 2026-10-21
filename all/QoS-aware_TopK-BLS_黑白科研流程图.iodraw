@@ -413,7 +413,7 @@
         <mxCell id="text104" value="鲁棒 QoS 目标与约束" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=25;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="2238" y="153" width="395" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="text105" value="双目标（最小化）" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=21;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
+        <mxCell id="text105" value="双目标" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=21;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=1;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="2239" y="210" width="394" height="37" as="geometry" />
         </mxCell>
         <mxCell id="thin106" value="" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#151515;strokeWidth=1.15;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
