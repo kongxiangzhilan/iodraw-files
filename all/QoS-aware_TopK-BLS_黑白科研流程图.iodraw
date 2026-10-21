@@ -212,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="text048" value="$$\sum_{b=1}^{4}\alpha_b=1$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=22;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
-          <mxGeometry x="591" y="550.5" width="231" height="100.5" as="geometry" />
+          <mxGeometry x="611" y="549.25" width="231" height="100.5" as="geometry" />
         </mxCell>
         <mxCell id="text049" value="$$0.05\leq\alpha_b\leq 0.60$$" style="rounded=0;whiteSpace=wrap;html=0;fillColor=none;strokeColor=none;fontFamily=SimSun;fontSize=17;fontColor=#151515;align=center;verticalAlign=middle;fontStyle=0;spacing=3;overflow=fill;" parent="1" vertex="1">
           <mxGeometry x="740" y="576" width="231" height="47" as="geometry" />
