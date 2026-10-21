@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" version="24.7.17">
   <diagram id="qos-topk-bls" name="Page-1">
-    <mxGraphModel dx="1055" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="1" shadow="0">
+    <mxGraphModel dx="1499" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1400" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,16 +224,10 @@
         <mxCell id="73" value="……" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1965" y="681" width="150" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="74" value="第4　q&lt;sup&gt;(4)&lt;/sup&gt; (s, u&lt;sup&gt;(4)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1700" y="709" width="145" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="75" value="第4　q&lt;sup&gt;(4)&lt;/sup&gt; (s*, u&lt;sup&gt;(4)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1965" y="709" width="150" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="86" value="第10　q&lt;sup&gt;(10)&lt;/sup&gt; (s, u&lt;sup&gt;(10)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="86" value="q&lt;sup&gt;(10)&lt;/sup&gt; (s, u&lt;sup&gt;(10)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1700" y="877" width="145" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="87" value="第10　q&lt;sup&gt;(10)&lt;/sup&gt; (s*, u&lt;sup&gt;(10)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="87" value="　q&lt;sup&gt;(10)&lt;/sup&gt; (s*, u&lt;sup&gt;(10)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1965" y="877" width="150" height="23" as="geometry" />
         </mxCell>
         <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" parent="1" source="45" target="49" edge="1">
