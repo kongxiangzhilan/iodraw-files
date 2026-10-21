@@ -201,10 +201,10 @@
           <mxGeometry x="1310" y="780" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="66" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1680" y="595" width="185" height="335" as="geometry" />
+          <mxGeometry x="1680" y="595" width="185" height="155" as="geometry" />
         </mxCell>
         <mxCell id="67" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=18;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1940" y="595" width="200" height="350" as="geometry" />
+          <mxGeometry x="1940" y="595" width="200" height="155" as="geometry" />
         </mxCell>
         <mxCell id="68" value="　q&lt;sup&gt;(1)&lt;/sup&gt; (s, u&lt;sup&gt;(1)&lt;/sup&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=Times New Roman;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1700" y="625" width="145" height="23" as="geometry" />
