@@ -37,7 +37,7 @@
         <mxCell id="13" value="预算耗尽？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=26;fontFamily=SimSun;align=center;verticalAlign=middle;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="270" y="940" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="输出 Top-10 集合 Q(s)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=26;fontFamily=SimSun;align=center;verticalAlign=middle;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="14" value="输出 Top-10 集合 Q(&lt;b&gt;&lt;i&gt;s&lt;/i&gt;&lt;/b&gt;)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=26;fontFamily=SimSun;align=center;verticalAlign=middle;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="230" y="1130" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="15" value="HV 更新共享种群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=26;fontFamily=SimSun;align=center;verticalAlign=middle;strokeWidth=3;" parent="1" vertex="1">
