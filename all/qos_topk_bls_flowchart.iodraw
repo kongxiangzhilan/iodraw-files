@@ -22,9 +22,6 @@
         <mxCell id="7" value="生成候选共享向量 &lt;i&gt;s&lt;/i&gt;（DE 变异/交叉）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="280" y="570" width="560" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="下层约束增强搜索循环" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;fontSize=18;fontStyle=1;align=left;verticalAlign=top;spacingTop=6;spacingLeft=8;fontFamily=SimSun;" parent="1" vertex="1">
-          <mxGeometry x="120" y="650" width="900" height="880" as="geometry" />
-        </mxCell>
         <mxCell id="9" value="RSM 评估 (&lt;i&gt;s&lt;/i&gt;, &lt;i&gt;u&lt;/i&gt;)：D̄&lt;sub&gt;b&lt;/sub&gt;、L̄&lt;sub&gt;b&lt;/sub&gt;、σ&lt;sub&gt;D,b&lt;/sub&gt;、σ&lt;sub&gt;L,b&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="310" y="700" width="500" height="84" as="geometry" />
         </mxCell>
@@ -43,7 +40,7 @@
         <mxCell id="14" value="子代 RSM 评估：&lt;i&gt;f&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt;、&lt;i&gt;f&lt;/i&gt;&lt;sub&gt;2&lt;/sub&gt; 与 CV(û)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="310" y="1208" width="500" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="约束支配比较：可行解优先；可行解间按 Pareto 支配；不可行解按 CV 升序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="15" value="约束支配比较：可行解优先；可行解间按 Pareto 支配；&lt;div&gt;不可行解按 CV 升序&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="310" y="1312" width="500" height="84" as="geometry" />
         </mxCell>
         <mxCell id="16" value="可行优先 HSSP 环境选择：分层非支配排序 + HV 精英子集，保留 &lt;i&gt;K&lt;/i&gt; = 10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fontFamily=SimSun;align=center;verticalAlign=middle;" parent="1" vertex="1">
